@@ -1,6 +1,6 @@
 ## Tugas
 
-1. Buat presentasi per kelompok mengenai Web Service yang berisi pengertian, fungsi, cara kerja, contoh penggunaan webservice / API (riil kasus), 
+1. Buat presentasi per kelompok mengenai Web Service yang berisi pengertian, fungsi, cara kerja, contoh penggunaan webservice / API (riil kasus),
 
 2. Setiap kelompok harus berbeda pada contoh penggunaan webservice / API pada poin 1.
 

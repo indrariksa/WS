@@ -1,4 +1,5 @@
-# WebService D4 TI
+# Kuliah Web Service
+Materi Kuliah Web Service, akses github pages : https://indrariksa.github.io/WS/
 
 # Pengenalan Tools
 Disini akan menggunakan tools Git Bash

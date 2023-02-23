@@ -19,7 +19,7 @@
 
 1. Buat folder NPM masing (contoh :123456) di dalam folder Site
 2. Buat template tailwindcss simpan sebagai index.html
-3. buat file js dengan nama fetch.js panggil di bawah dengan script, sebelum tag </body>
+3. buat file js dengan nama fetch.js panggil di bawah dengan script, sebelum tag penutup body
    ```html
    <script src="./fetch.js"></script>
    ```

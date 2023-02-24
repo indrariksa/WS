@@ -68,3 +68,15 @@
   * Lakukan pada repo masing-masing mahasiswa
   * Setting pages pilih deployment from branch pilih main. Maka form kita bisa diakses dari menjadi github pages. Alamat github pages biasanya sub domain dari github.io. Contoh : {username github}.github.io
   ![image](https://user-images.githubusercontent.com/26703717/220871197-19aa1b56-fa71-49b7-bcc7-91cad9b783ed.png)
+  
+## Kerjakan
+1. Buat folder NPM masing-masing di dalam folder Tugas di dalam folder Week2. 
+2. Pilih Public API di bawah atau bisa cari sendiri :
+  * https://github.com/public-apis/public-apis
+  * https://github.com/farizdotid/DAFTAR-API-LOKAL-INDONESIA
+3. Ada dua file yang dibuat yaitu dengan nama index.html dan fetch.js. Boleh menambahkan file css.
+4. Buat html bisa membaca semua data dari API dan disimpan dalam tabel (Minimal data yang ditampilkan yaitu 4 data), pastikan setiap orang berbeda, tidak boleh sama API nya.
+  ![image](https://user-images.githubusercontent.com/26703717/221107173-eb43145c-0ac8-4880-8af7-6d185292246f.png)
+6. Pull Request Dengan Subjek : 2-KELAS-NPM-NAMA , 
+7. Pastikan akses API hanya menggunakan protokol https
+

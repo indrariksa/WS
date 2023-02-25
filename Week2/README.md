@@ -70,14 +70,16 @@
   ![image](https://user-images.githubusercontent.com/26703717/220871197-19aa1b56-fa71-49b7-bcc7-91cad9b783ed.png)
   
 ## Kerjakan
-1. Buat folder NPM masing-masing (contoh : 123456) di dalam folder Week2-->Tugas. 
+1. Buat folder NPM masing-masing (contoh : 123456) di dalam folder Week2-->Tugas.
 2. Pilih Public API di bawah atau bisa cari sendiri :
   * https://github.com/public-apis/public-apis
   * https://github.com/farizdotid/DAFTAR-API-LOKAL-INDONESIA
-3. Ada dua file yang dibuat yaitu dengan nama index.html dan fetch.js. Boleh menambahkan file css.
-4. Buat html bisa membaca semua data dari API dan disimpan dalam tabel (Minimal data yang ditampilkan yaitu 4 data), pastikan setiap orang berbeda, tidak boleh sama API nya.
+3. Kirim link API yang dipakai di grup WA
+4. Ada dua file yang dibuat yaitu dengan nama index.html dan fetch.js. Boleh menambahkan file css
+5. Buat html bisa membaca semua data dari API dan disimpan dalam tabel (Minimal data yang ditampilkan yaitu 4 data), pastikan setiap orang berbeda, tidak boleh sama API nya
   ![image](https://user-images.githubusercontent.com/26703717/221107173-eb43145c-0ac8-4880-8af7-6d185292246f.png)
-5. Sertakan link Github Pages Sudah jalan di repo masing-masing (misal : https://indrariksa.github.io/WS/Week2/Tugas/NPM/)
-6. Pull Request Dengan Subjek : 2-KELAS-NPM-NAMA, 
-7. Pastikan akses API hanya menggunakan protokol https
+6. Nilai tambah jika API yang ditampilkan selain text (misal : menampilkan gambar, embed video, dll)
+7. Sertakan link Github Pages Sudah jalan di repo masing-masing (misal : https://indrariksa.github.io/WS/Week2/Tugas/NPM/)
+8. Pull Request Dengan Subjek : 2-KELAS-NPM-NAMA, 
+9. Pastikan akses API hanya menggunakan protokol https
 

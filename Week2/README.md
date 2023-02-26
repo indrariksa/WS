@@ -69,7 +69,7 @@
   * Setting pages pilih deployment from branch pilih main. Maka form kita bisa diakses dari menjadi github pages. Alamat github pages biasanya sub domain dari github.io. Contoh : {username github}.github.io --> https://indrariksa.github.io/WS/Week2/Site/NPM
   ![image](https://user-images.githubusercontent.com/26703717/220871197-19aa1b56-fa71-49b7-bcc7-91cad9b783ed.png)
   
-## Kerjakan
+## Kerjakan (Minggu depan sudah dikumpul semua = 3 Maret 2023)
 1. Buat folder NPM masing-masing (contoh : 123456) di dalam folder Week2-->Tugas.
 2. Pilih Public API di bawah atau bisa cari sendiri :
   * https://github.com/public-apis/public-apis

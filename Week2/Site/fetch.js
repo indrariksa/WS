@@ -10,11 +10,12 @@ var requestOptions = {
 hasil=""
 
 fetch("https://cat-fact.herokuapp.com/facts", requestOptions)
-  .then(response => response.text())
+  .then(response => responsez.text())
   .then(result => tampilkan(result))
   .catch(error => console.log('error', error));
 
   function tampilkan(result){
     console.log(result);
     hasil=JSON.parse(result);
+
   }

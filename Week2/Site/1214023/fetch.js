@@ -10,23 +10,20 @@ var requestOptions = {
 hasil = "";
 
 fetch("https://cat-fact.herokuapp.com/facts", requestOptions)
-<<<<<<< HEAD
-  .then(response => responsez.text())
-  .then(result => tampilkan(result))
-  .catch(error => console.log('error', error));
-
-  function tampilkan(result){
-    console.log(result);
-    hasil=JSON.parse(result);
-
-  }
-=======
   .then((response) => response.text())
   .then((result) => tampilkan(result))
   .catch((error) => console.log("error", error));
 
 function tampilkan(result) {
-  console.log(result);
-  hasil = JSON.parse(result);
+  iniJson = JSON.parse(result);
+  console.log(iniJson);
+  length = iniJson.length;
+
+  for (i = 0; i < length; i++) {
+    hasil += "<tr>";
+    hasil += "<td scope='col' class='px-6 py-4 font-medium text-gray-900'>" + iniJson[i].status.verified + "</td>";
+    hasil += "</tr>";
+  }
+
+  document.getElementById("inidata").innerHTML = hasil;
 }
->>>>>>> a06d2e7df129140481434e789585758a0d3bc887

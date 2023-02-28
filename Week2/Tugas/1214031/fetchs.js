@@ -27,7 +27,6 @@ function tampilkan(result) {
     hasil += "<td scope='col' class='px-6 py-4 font-medium text-gray-900'><img src='" + iniJson[i].image + "'/></td>";
     hasil += "<td scope='col' class='px-6 py-4 font-medium text-gray-900'>" + iniJson[i].gender + "</td>";
     hasil += "<td scope='col' class='px-6 py-4 font-medium text-gray-900'>" + iniJson[i].hairColor + "</td>";
-    hasil += "<td scope='col' class='px-6 py-4 font-medium text-gray-900'>" + iniJson[i].voicedBy + "</td>";
     hasil += "</tr>";
   }
 

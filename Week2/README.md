@@ -79,7 +79,7 @@
 5. Buat html bisa membaca semua data dari API dan disimpan dalam tabel (Minimal data yang ditampilkan yaitu 4 data), pastikan setiap orang berbeda, tidak boleh sama API nya
   ![image](https://user-images.githubusercontent.com/26703717/221107173-eb43145c-0ac8-4880-8af7-6d185292246f.png)
 6. Nilai tambah jika API yang ditampilkan selain text (misal : menampilkan gambar, embed video, dll)
-7. Sertakan link Github Pages Sudah jalan di repo masing-masing (misal : https://indrariksa.github.io/WS/Week2/Tugas/NPM/)
+7. Sertakan link Github Pages Sudah jalan di repo masing-masing (misal : https://indrariksa.github.io/WS/Week2/Tugas/NPM/). Note : buat file README.md di dalam folder NPM masing-masing kemudian isikan linknya disitu
 8. Pull Request Dengan Subjek : 2-KELAS-NPM-NAMA, 
 9. Pastikan akses API hanya menggunakan protokol https
 

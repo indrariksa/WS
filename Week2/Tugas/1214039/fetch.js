@@ -3,9 +3,9 @@ var requestOptions = {
   redirect: "follow",
 };
 
-hasil = ""
+hasil = "";
 
-fetch("https://picsum.photos/v2/list?page=1&limit=100", requestOptions)
+fetch("https://picsum.photos/v2/list?page=1&limit=5", requestOptions)
   .then((response) => response.text())
   .then((result) => tampilkan(result))
   .catch((error) => console.log("error", error));

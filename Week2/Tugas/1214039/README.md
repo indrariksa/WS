@@ -1,3 +1,3 @@
-# Link Akses Pages Tugas 2
+# Link Tugas 2
 
-https://febriand1.github.io/webservices/Week2/Tugas/1214039/
+https://febriand1.github.io/webservices/Week2/Tugas/1214039

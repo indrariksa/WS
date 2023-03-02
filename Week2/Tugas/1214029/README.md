@@ -1,1 +1,1 @@
-https://agitanurfd.github.io/Pemgrograman-III/Week2/Tugas/1214029/
+https://agitanurfd.github.io/Pemrograman-III/Week2/Tugas/1214029/

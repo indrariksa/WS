@@ -1,1 +1,1 @@
-link : https://api.reku.id/v2/ads
+link : https://rizkyriahutabarat.github.io/Tugas1214023/Week2/Tugas/1214023/

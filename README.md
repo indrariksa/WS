@@ -9,7 +9,8 @@ Materi Kuliah Web Service, akses github pages : https://indrariksa.github.io/WS/
 Pelaku ubah atau delete file orang :
 |No.| NPM      | Nama | Commit |
 | ------ | ------ | ------ | ------ |
-|1.| 1214023 | Rizkyria Angelina Pandapotan Hutabarat	 | https://github.com/indrariksa/WS/commit/af8d2ce101647d1b9cd9b16c2f754b3b119aef92#diff-b984f92ea833b9b4302a76e7d131246cc1fa9f6dfd6701cbae06a1458c060dbd |
+|1.| 1214023 | Rizkyria Angelina Pandapotan Hutabarat | https://github.com/indrariksa/WS/commit/af8d2ce101647d1b9cd9b16c2f754b3b119aef92#diff-b984f92ea833b9b4302a76e7d131246cc1fa9f6dfd6701cbae06a1458c060dbd |
+|2.| 1214043 | Muhammad Zidan Putra Yuliadie | https://github.com/indrariksa/WS/pull/111/commits/fd6723571ea94927e47e955507ffca3f3f3b9926 |
 
 # Pengenalan Tools
 Disini akan menggunakan tools Git Bash

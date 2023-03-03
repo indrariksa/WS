@@ -23,6 +23,7 @@ function tampilkan(result) {
   for (i = 0; i < Length; i++) {
     hasil += "<tr>";
     hasil += "<td scope='col' class='px-6 py-4 font-medium text-gray-900'>" + iniJson[i].status.verified + "</td>";
+    hasil += "<td scope='col' class='px-6 py-4 font-medium text-gray-900'>" + iniJson[i].text + "</td>";
     hasil += "</tr>";
   }
 

@@ -176,11 +176,11 @@ Pasti merasa aneh bukan setelah menekan tombol, tapi tampilan tidak berubah sama
   ![image](https://user-images.githubusercontent.com/26703717/222401220-a090b549-e759-40d3-93e8-fba22bbdea55.png)
 * Push pada repo github masing-masing Week3/Site/{NPM masing-masing}, kemudian lakukan pull request, dan coba jalankan hasil yang sudah dibuat pada Github Pages. Alamat github pages biasanya sub domain dari github.io. Contoh : https://indrariksa.github.io/WS/Week3/Site/NPM
 
-## Kerjakan
+## Kerjakan (Tugas Take Home)
 
 * Buatlah form sign up yang melakukan POST ke pipedream.com ketika klik button.
 * Form inputan yang dibuat minimal berisi 5 form.
-* Buat Folder NPM masing-masing didalam Week3/Site/{NPM masing-masing} yang berisi 2 file minimal js dan html, dengan nama index.html, ws.js. Boleh menambahkan file css.
+* Buat Folder NPM masing-masing didalam Week3/Tugas/{NPM masing-masing} yang berisi 2 file minimal js dan html, dengan nama index.html, ws.js. Boleh menambahkan file css.
 * file ws.js minimal berisi 3 fungsi, tidak boleh ada kode js diluar dari fungsi, semua harus masuk ke dalam fungsi js.
 * Form dibangun dengan menggunakan CSS tailwind, desain html tidak boleh sama, harus berbeda satu sama lain.
 * Pull Request dengan nama 3-Kelas-NPM-NAMA di folder Week3/Site/{NPM masing-masing}, dengan deskripsi disertakan di bawah ini.

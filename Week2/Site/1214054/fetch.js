@@ -9,7 +9,7 @@ var requestOptions = {
 
 hasil=""
 
-fetch("https://api.openligadb.de/getmatchdata/bl1/2020/8", requestOptions)
+fetch("https://cat-fact.herokuapp.com/facts", requestOptions)
   .then(response => response.text())
   .then(result => tampilkan(result))
   .catch(error => console.log('error', error));
@@ -22,10 +22,9 @@ fetch("https://api.openligadb.de/getmatchdata/bl1/2020/8", requestOptions)
     for(i=0; i<Length; i++)
     {
         hasil += "<tr>";
-        hasil += "<td 'scope='col' class='px-6 py-4 font-medium text-gray-900'>"+iniJson[i].team2.teamId+"</td>";
-        hasil += "<td 'scope='col' class='px-6 py-4 font-medium text-gray-900'>"+iniJson[i].team2.teamName+"</td>";
-        hasil += "<td 'scope='col' class='px-6 py-4 font-medium text-gray-900'>"+iniJson[i].team2.shortName+"</td>";
-        hasil += "<td scope='col' class='px-6 py-4 font-medium text-gray-900'><img src='" +iniJson[i].team2.teamIconUrl+"'/></td>";
+        hasil += "<td 'scope='col' class='px-6 py-4 font-medium text-gray-900'>"+iniJson[i].text+"</td>";
+        hasil += "<td 'scope='col' class='px-6 py-4 font-medium text-gray-900'>"+iniJson[i].user+"</td>";
+        hasil += "<td 'scope='col' class='px-6 py-4 font-medium text-gray-900'>"+iniJson[i].status.verified+"</td>";
         hasil += "</tr>";
     }
     document.getElementById("inidata").innerHTML = hasil;

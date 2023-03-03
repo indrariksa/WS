@@ -9,7 +9,7 @@ var requestOptions = {
 
 hasil=""
 
-fetch("https://24pullrequests.com/users.json?page=", requestOptions)
+fetch("https://cat-fact.herokuapp.com/facts", requestOptions)
   .then(response => response.text())
   .then(result => tampilkan(result))
   .catch(error => console.log('error', error));
@@ -23,10 +23,9 @@ fetch("https://24pullrequests.com/users.json?page=", requestOptions)
     for(i=0; i<length; i++)
     {
         hasil += "<tr>";
-        hasil += "<td scope='col' class='px-6 py-4 font-medium text-gray-900'>" +iniJson[i].organization.login+"</td>";
-        hasil += "<td scope='col' class='px-6 py-4 font-medium text-gray-900'>" +iniJson[i].organization.avatar_url+"</td>";
-        // hasil += "<td scope='col' class='px-6 py-4 font-medium text-gray-900'>" +iniJson[i].organization[0].link+"</td>";
-        
+        hasil += "<td scope='col' class='px-6 py-4 font-medium text-gray-900'>" +iniJson[i].text+"</td>";
+        hasil += "<td scope='col' class='px-6 py-4 font-medium text-gray-900'>" +iniJson[i].user+"</td>";
+        hasil += "<td scope='col' class='px-6 py-4 font-medium text-gray-900'>" +iniJson[i].status.verified+"</td>";
         hasil += "</tr>";
     }
     document.getElementById("inidata").innerHTML = hasil;

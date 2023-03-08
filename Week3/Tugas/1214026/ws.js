@@ -1,10 +1,9 @@
-function PostSignUp(student_application, student_id, student_name, course_name, email, telephone) {
+function PostSignUp(student_id, student_name, course_name, email, telephone) {
   var myHeaders = new Headers();
   myHeaders.append("create", "chapter03");
   myHeaders.append("Content-Type", "application/json");
 
   var raw = JSON.stringify({
-    student_application: student_application,
     student_id: student_id,
     student_name: student_name,
     course_name: course_name,
@@ -24,12 +23,11 @@ function PostSignUp(student_application, student_id, student_name, course_name, 
     .then((result) => console.log(result))
     .catch((error) => console.log("error", error));
 }
-function PushButtom() {
-  student_application = document.getElementById("student_application").value;
+function PushButton() {
   student_id = document.getElementById("student_id").value;
   student_name = document.getElementById("student_name").value;
   course_name = document.getElementById("course_name").value;
   email = document.getElementById("email").value;
   telephone = document.getElementById("telephone").value;
-  PushButtom(student_application, student_id, student_name, course_name, email, telephone);
+  PostSignUp(student_id, student_name, course_name, email, telephone);
 }

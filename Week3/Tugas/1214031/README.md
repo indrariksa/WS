@@ -22,6 +22,6 @@ https://erditona.github.io/Pemrog3WebService/Week3/Tugas/1214031/
 
 ![image.png](https://github.com/erditona/Pemrog3WebService/blob/main/Week3/Tugas/1214031/ss/Pipedream.png)
 
-## SERTIFICATE
+## CERTIFICATE
 
 ![image.png](https://github.com/erditona/Pemrog3WebService/blob/main/Week3/Tugas/1214031/ss/Certificate.png)

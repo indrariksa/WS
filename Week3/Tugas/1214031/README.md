@@ -2,19 +2,19 @@
 
 ## LIVE SERVER
 
-![image.png]( {link gambar} )
+![image.png](https://github.com/erditona/Pemrog3WebService/blob/main/Week3/Tugas/1214031/ss/live-server(1).png)
 
 ## LIVE SERVER - TERISI
 
-![image.png]( {link gambar} )
+![image.png](https://github.com/erditona/Pemrog3WebService/blob/main/Week3/Tugas/1214031/ss/live-server(2).png)
 
 ## LIVE SERVER - ALERT KETIKA FORM MASIH ADA YANG KOSONG
 
-![image.png]( {link gambar} )
+![image.png](https://github.com/erditona/Pemrog3WebService/blob/main/Week3/Tugas/1214031/ss/live-server(3).png)
 
 ## LIVE SERVER - BERHASIL TERKIRIM
 
-![image.png]( {link gambar} )
+![image.png](https://github.com/erditona/Pemrog3WebService/blob/main/Week3/Tugas/1214031/ss/live-server(4).png)
 
 ## PIPEDREAM
 

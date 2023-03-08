@@ -24,4 +24,4 @@ https://erditona.github.io/Pemrog3WebService/Week3/Tugas/1214031/
 
 ## SERTIFICATE
 
-![image.png]( {link gambar} )
+![image.png](https://github.com/erditona/Pemrog3WebService/blob/main/Week3/Tugas/1214031/ss/Certificate.png)

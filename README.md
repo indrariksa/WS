@@ -4,6 +4,7 @@ Materi Kuliah Web Service, akses github pages : https://indrariksa.github.io/WS/
 ## URL Cek Tugas (untuk NPM bisa diubah dengan NPM masing-masing)
 1. https://indrariksa.github.io/WS/Week2/Site/NPM/
 2. https://indrariksa.github.io/WS/Week2/Tugas/NPM/
+3. https://indrariksa.github.io/WS/Week3/Tugas/NPM/
 
 ## Pelakor
 Pelaku ubah atau delete file orang :

@@ -1,4 +1,4 @@
-function PostSignUp(fullname,email,country,phone_number,password){
+function PostSignUp(fullname,email,country,phone_number,password,confirmpassword){
     var myHeaders = new Headers();
     myHeaders.append("Login", "dimas123");
     myHeaders.append("Content-Type", "application/json");
@@ -8,7 +8,8 @@ function PostSignUp(fullname,email,country,phone_number,password){
       "email": email,
       "country": country,
       "phone_number": phone_number,
-      "password": password
+      "password": password,
+      "confirmpassword" : confirmpassword
     });
 
 var requestOptions = {
@@ -30,9 +31,22 @@ function PushButton(){
     country=document.getElementById("country").value;
     phone_number=document.getElementById("phone_number").value;
     password=document.getElementById("password").value;
-    PostSignUp(fullname,email,country,phone_number,password);
+    confirmpassword=document.getElementById("confirmpassword").value;
+    if(!fullname,!email,!country,!phone_number,!password,!confirmpassword){
+      alert("Field tidak boleh kosong")
+    }else if(confirmpassword != password){
+      alert("Password salah")
+    }else{
+      PostSignUp(fullname,email,country,phone_number,password,confirmpassword);
+    }
   }
   
 function GetResponse(){ 
     document.getElementById("pesan").innerHTML = "<p class='py-3 bg-green-500 text-white w-full rounded text-center'>Sign Up Success !!!</p>";
+    document.getElementById("fullname").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("country").value = "";
+    document.getElementById("phone_number").value = "";
+    document.getElementById("password").value = "";
+    document.getElementById("confirmpassword").value = "";
 }

@@ -38,6 +38,15 @@ function PushButton(){
   email=document.getElementById("email").value;
   notelepon=document.getElementById("notelepon").value;
   password=document.getElementById("password").value;
+
+
   confirmpassword=document.getElementById("confirmpassword").value;
-  PostSignUp(namadepan,namabelakang,email,notelepon, password, confirmpassword);
+
+  if(confirmpassword != password) {
+    alert("Konfirmasi Password Salah");
+  } else {
+    PostSignUp(namadepan,namabelakang,email,notelepon, password, confirmpassword);
+  }
+
+  
 }

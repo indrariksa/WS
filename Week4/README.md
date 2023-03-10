@@ -49,7 +49,7 @@ Dalam memilih basis data skala enterprise harus mengacu pada hasil survey [Gartn
 
 ## Pengembangan Backend
 
-Pada sesi ini pastikan anda sudah mendaftarkan diri ke heroku. Kemudian kita akan mencoba mengembangkan package golang. Langkah untuk membuat backend di golang :
+Pada sesi ini kita akan mencoba mengembangkan package golang. Langkah untuk membuat backend di golang :
 
 - Instalasi golang (https://go.dev/dl/)
 - Definisikan dahulu struct

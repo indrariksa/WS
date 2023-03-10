@@ -61,7 +61,7 @@ Pada sesi ini kita akan mencoba mengembangkan package golang. Langkah untuk memb
 Komunikasi di golang menggunakan json dipermudah dengan adanya struct type. Struct type ini akan mendefinisikan bagaimana bentuk json yang berkomunikasi dari frontend menuju backend. Sebelumnya inisiasi dulu package yang akan kita buat, masuk ke folder kerja kita dan lakukan inisialisasi package
 
 ```sh
-go mod init github.com/{username github kalian}/WS/Chapter04/Site/{NPM masing-masing}
+go mod init github.com/{username github kalian}/{nama repo kalian}/Week4/Site/{NPM masing-masing}
 ```
 ![image](https://user-images.githubusercontent.com/26703717/224059826-1497e750-265e-4442-9db7-123e30301736.png)
 

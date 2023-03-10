@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0ed3cf">
+  <meta name="msapplication-TileColor" content="#0ed3cf">
+  <meta name="theme-color" content="#0ed3cf">
+
+  <meta property="og:image" content="http://tailwindcomponents.com/storage/2335/temp66711.png?v=2023-02-20 21:54:06" />
+  <meta property="og:image:width" content="1280" />
+  <meta property="og:image:height" content="640" />
+  <meta property="og:image:type" content="image/png" />
+
+  <meta property="og:url" content="https://tailwindcomponents.com/component/simple-registersign-up-form/landing" />
+  <meta property="og:title" content="Simple Register/Sign Up Form by Scott Windon" />
+  <meta property="og:description" content="Just a simple responsive sign up form with icons" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@TwComponents" />
+  <meta name="twitter:title" content="Simple Register/Sign Up Form by Scott Windon" />
+  <meta name="twitter:description" content="Just a simple responsive sign up form with icons" />
+  <meta name="twitter:image" content="http://tailwindcomponents.com/storage/2335/temp66711.png?v=2023-02-20 21:54:06" />
+
+  <title>Registrasi Anganaufea</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-200">
+
+  <!-- component -->
+
+  <div class="flex items- above center justify-center p-12">
+    <div class="text-center mb-10">
+      <h1 class="font-bold text-3xl text-gray-900">REGISTRASI</h1>
+      <p>Masukan Data Diri Untuk Registrasi</p>
+      <img src="Black and White Vintage.png" alt="">
+    </div>
+    <div id="formsignup" class=" w-full md:w-1/2 py-10 px-5 md:px-10">
+      <div class="mx-auto w-full max-w-[550px]">
+        <div class="mb-5">
+          <label for="namadepan" class="mb-3 block text-base font-medium text-[#07074D]">
+            Nama Depan
+          </label>
+          <input type="text" name="namadepan" id="namadepan" placeholder="Nama Depan"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        </div>
+        <div class="mb-5">
+          <label for="namabelakang" class="mb-3 block text-base font-medium text-[#07074D]">
+            Nama Belakang
+          </label>
+          <input type="text" name="namabelakang" id="namabelakang" placeholder="Nama Belakang"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        </div>
+        <div class="mb-5">
+          <label for="email" class="mb-3 block text-base font-medium text-[#07074D]">
+            Alamat Email
+          </label>
+          <input type="email" name="email" id="email" placeholder="contoh@mail.com"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        </div>
+        <div class="mb-5">
+          <label for="notelepon" class="mb-3 block text-base font-medium text-[#07074D]">
+            No Telepon
+          </label>
+          <input type="number" name="notelepon" id="notelepon" placeholder="08xxxxxxxxxx"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        </div>
+        <div class="mb-5">
+          <label for="password" class="mb-3 block text-base font-medium text-[#07074D]">
+            Password
+          </label>
+          <input type="password" name="password" id="password" placeholder="**********"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        </div>
+        <div class="mb-5">
+          <label for="confirmpassword" class="mb-3 block text-base font-medium text-[#07074D]">
+            Konfirmasi Password
+          </label>
+          <input type="password" name="confirmpassword" id="confirmpassword" placeholder="**********"
+            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md" />
+        </div>
+        <div>
+          <button onclick="PushButton()" id="tombol"
+            class="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none">
+            Simpan
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="ws.js"></script>
+</body>
+
+</html>

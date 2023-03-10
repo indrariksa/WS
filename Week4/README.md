@@ -275,3 +275,5 @@ go list -m github.com/indrariksa/ws@v0.0.1
 ```
 ![image](https://user-images.githubusercontent.com/26703717/224067365-a49bf33b-b0a8-4b54-a3ef-44970adaa7da.png)
 ![image](https://user-images.githubusercontent.com/26703717/224067762-89dcb21e-a9a7-4453-91eb-a83e319be717.png)
+
+Jika sudah seharusnya package kalian ada di [pkg.go.dev](https://pkg.go.dev/). Butuh waktu mungkin sekitar 1 minggu untuk rilis

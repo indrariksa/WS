@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0ed3cf">
+    <meta name="msapplication-TileColor" content="#0ed3cf">
+    <meta name="theme-color" content="#0ed3cf">
+
+    <meta property="og:image" content="http://tailwindcomponents.com/storage/2335/temp66711.png?v=2023-02-20 21:54:06" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="640" />
+    <meta property="og:image:type" content="image/png" />
+
+    <meta property="og:url" content="https://tailwindcomponents.com/component/simple-registersign-up-form/landing" />
+    <meta property="og:title" content="Simple Register/Sign Up Form by Scott Windon" />
+    <meta property="og:description" content="Just a simple responsive sign up form with icons" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@TwComponents" />
+    <meta name="twitter:title" content="Simple Register/Sign Up Form by Scott Windon" />
+    <meta name="twitter:description" content="Just a simple responsive sign up form with icons" />
+    <meta name="twitter:image" content="http://tailwindcomponents.com/storage/2335/temp66711.png?v=2023-02-20 21:54:06" />
+
+    <title>Simple Register/Sign Up Form by Scott Windon. </title>
+
+            <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+<body class="bg-gray-200">
+
+    <div class="grid min-h-screen place-items-center">
+        <div id="formsignup" class="w-11/12 p-12 bg-white sm:w-8/12 md:w-1/2 lg:w-5/12">
+          <h1 class="text-xl font-semibold">Hello there ?, <span class="font-normal">please fill in your information to continue</span></h1>
+            <div class="flex justify-between gap-3">
+              <span class="w-1/2">
+                <label for="firstname" class="block text-xs font-semibold text-gray-600 uppercase">Firstname</label>
+                <input id="firstname" type="text" name="firstname" placeholder="Agita" autocomplete="given-name" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
+              </span>
+              <span class="w-1/2">
+                <label for="lastname" class="block text-xs font-semibold text-gray-600 uppercase">Lastname</label>
+              <input id="lastname" type="text" name="lastname" placeholder="Nurfadillah" autocomplete="family-name" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
+              </span>
+            </div>
+            <label for="email" class="block mt-2 text-xs font-semibold text-gray-600 uppercase">E-mail</label>
+            <input id="email" type="email" name="email" placeholder="agitanurfadillah45@gmail.com" autocomplete="email" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
+            <label for="password" class="block mt-2 text-xs font-semibold text-gray-600 uppercase">Password</label>
+            <input id="password" type="password" name="password" placeholder="********" autocomplete="new-password" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
+            <label for="passwordconfirm" class="block mt-2 text-xs font-semibold text-gray-600 uppercase">Confirm password</label>
+            <input id="passwordconfirm" type="password" name="passwordconfirm" placeholder="********" autocomplete="new-password" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
+            <button onclick="PushButton()" id="tombol" class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+              Sign up
+            </button>
+            <p class="flex justify-between inline-block mt-4 text-xs text-gray-500 cursor-pointer hover:text-black">Already registered?</p>
+        </div>
+      </div>
+
+<script src="ws.js"></script>
+</body>
+</html>
